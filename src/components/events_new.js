@@ -33,7 +33,6 @@ class EventsNew extends Component {
 
   render() {
     const { handleSubmit, pristine, submitting } = this.props;
-    console.log(submitting);
     return (
       <React.Fragment>
         <form onSubmit={handleSubmit(this.onSubmit)}>
